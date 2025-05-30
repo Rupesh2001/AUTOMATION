@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import sqlite3
 
 name = input("Enter your name: ")
@@ -26,7 +26,7 @@ cursor.execute('SELECT * FROM users')
 print(cursor.fetchall())  # Should print [] since user was deleted
 
 conn.close()
-=======
+
 import sqlite3
 
 name = input("Enter your name: ")
@@ -54,4 +54,4 @@ cursor.execute('SELECT * FROM users')
 print(cursor.fetchall())  # Should print [] since user was deleted
 
 conn.close()
->>>>>>> 8218050 (Selenium Automation)
+

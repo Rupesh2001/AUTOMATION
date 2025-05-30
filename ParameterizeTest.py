@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -40,7 +40,7 @@ def test_login_invalid(driver, email, password):
     error_msg = error_msg_element.text.strip()
     assert error_msg == "Invalid username or password. Please try again.", "Unexpected login error message."
     
-=======
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -82,4 +82,4 @@ def test_login_invalid(driver, email, password):
     error_msg = error_msg_element.text.strip()
     assert error_msg == "Invalid username or password. Please try again.", "Unexpected login error message."
     
->>>>>>> 8218050 (Selenium Automation)
+

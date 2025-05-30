@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -76,7 +76,7 @@ driver.quit()
 
 
 
-=======
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -152,6 +152,3 @@ else:
 driver.quit()
 
 
-
-
->>>>>>> 8218050 (Selenium Automation)

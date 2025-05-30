@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # print("hello")
 
 # a= int(65)

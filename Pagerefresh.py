@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -26,7 +26,7 @@ if checkrefresh.is_displayed:
     print("Page is refreshed")
 else:
     print("Page not refreshed")
-=======
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -54,5 +54,5 @@ if checkrefresh.is_displayed:
     print("Page is refreshed")
 else:
     print("Page not refreshed")
->>>>>>> 8218050 (Selenium Automation)
+
 driver.quit()

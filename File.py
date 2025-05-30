@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 '''
 w r a 
 '''
@@ -21,7 +21,7 @@ print(read)
 file.close()
 
 
-=======
+
 '''
 w r a 
 '''
@@ -44,4 +44,4 @@ print(read)
 file.close()
 
 
->>>>>>> 8218050 (Selenium Automation)
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
@@ -29,7 +29,7 @@ def test_case1(driver):
     error_msg_element = driver.find_element(By.XPATH, "//div[@role='status']")
     error_msg = error_msg_element.text.strip()
     assert error_msg == "Invalid username or password. Please try again.", "Login error message does not match expected."
-=======
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
@@ -60,4 +60,4 @@ def test_case1(driver):
     error_msg_element = driver.find_element(By.XPATH, "//div[@role='status']")
     error_msg = error_msg_element.text.strip()
     assert error_msg == "Invalid username or password. Please try again.", "Login error message does not match expected."
->>>>>>> 8218050 (Selenium Automation)
+

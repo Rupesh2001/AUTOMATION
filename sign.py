@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -122,5 +122,5 @@ driver.find_element(By.XPATH,"//input[contains(@placeholder,'Enter 6-digit OTP')
 time.sleep(5)
 verifyemail = driver.find_element(By.XPATH,"//button[normalize-space()='Verify Email']")
 verifyemail.click()
->>>>>>> 8218050 (Selenium Automation)
+
 '''

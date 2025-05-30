@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -109,7 +109,7 @@ for idx, case in enumerate(test_cases):
     print(f"Expected Valid: {case['expect_valid']}, Found Error: {has_error} → {result}")
 
 driver.quit()
-=======
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -220,4 +220,4 @@ for idx, case in enumerate(test_cases):
     print(f"Expected Valid: {case['expect_valid']}, Found Error: {has_error} → {result}")
 
 driver.quit()
->>>>>>> 8218050 (Selenium Automation)
+

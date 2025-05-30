@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class cat:
     def __init__(self , name , age):
         self.name = name
@@ -8,7 +8,7 @@ cat2 = cat("Tommy", 4)
 print("Cat 1 name:", cat1.name)
 print("Cat 1 age:", cat1.age)
 print("Cat 2 name:", cat2.name)
-=======
+
 class cat:
     def __init__(self , name , age):
         self.name = name
@@ -18,5 +18,4 @@ cat2 = cat("Tommy", 4)
 print("Cat 1 name:", cat1.name)
 print("Cat 1 age:", cat1.age)
 print("Cat 2 name:", cat2.name)
->>>>>>> 8218050 (Selenium Automation)
 print("Cat 2 age:", cat2.age)
